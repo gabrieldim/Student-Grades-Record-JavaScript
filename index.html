@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    
+    <h3>Details</h3> <br>
+    <label>Name: </label><input type="text" id="name"><br><br>
+    <label>Index: </label><input type="text" id="index"><br><br>
+    <label>Phone: </label><input type="text" id="phone"><br><br>
+    <label>Grade</label><input type="radio" name="grade" value="5">5
+                        <input type="radio" name="grade" value="6">6
+                        <input type="radio" name="grade" value="7">7
+                        <input type="radio" name="grade" value="8">8
+                        <input type="radio" name="grade" value="9">9
+                        <input type="radio" name="grade" value="10">10 <br><br>
+    <label>Session: </label> 
+    <select id="session">
+        <option>January</option>
+        <option>June</option>
+        <option>September</option>
+    </select>                   <br><br>
+
+    <button onclick="getParams()">Import student</button><br><br>
+    <label id="showAverage">Average: </label><br><br>
+
+    <ul id="lista">
+
+    </ul>
+
+    <br>
+    <br>
+
+    <table id="tabela">
+        <th>Name</th>
+        <th>Index</th>
+        <th>Phone</th>
+        <th>Grade</th>
+        <th>Session</th>
+        <th>Actions</th>
+    </table>
+    <script src="myjavascript.js">
+
+    </script>
+</body>
+
+</html>
